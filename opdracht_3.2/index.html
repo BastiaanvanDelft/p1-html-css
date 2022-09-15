@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="result.html" method="post">
+        <div>
+            <label for="name">Naam</label>
+            <input type="text" id="name" name="name" placeholder="voornaam" pattern="[a-zA-Z]*" required>
+        </div>
+        <div>
+            <label for="surname">Achternaam</label>
+            <input type="text" id="surname" name="surname" placeholder="achternaam" pattern="[a-zA-Z]*" required>
+        </div>
+        <div>
+            <label for="gender">Geslacht</label>
+            <div>
+            <label for="gender">man</label>
+            <input type="radio" id="gender" name="gender" value="man" required>
+            </div>
+            <div>
+            <label for="gender">vrouw</label>
+            <input type="radio" id="gender" name="gender" value="vrouw" required>
+            </div>
+        </div>
+        <div>
+            <label for="address">Adres</label>
+            <input type="text" id="address" name="address" placeholder="adres" required>
+        </div>
+        <div>
+            <label for="postcode">Postcode</label>
+            <input type="text" id="postcode" name="postcode" placeholder="postcode" required>
+        </div>
+        <div>
+            <label for="stad">Stad</label>
+            <input type="text" id="stad" name="stad" placeholder="stad" required>
+        </div>
+        <div>
+            <label for="land">Land</label>
+            <input type="text" id="land" name="land" placeholder="land" required>
+        </div>
+        <div>
+            <label for="bsn">BSN-Nummer</label>
+            <input type="text" id="bsn" name="bsn" placeholder="bsn" pattern="[0-9]*" maxlength="9" required>
+        </div>
+        <div>
+            <label for="vakantieland">Vakantieland</label>
+            <select name="vakantieland" id="vakantieland">
+                <option value="afghanistan">Afghanistan</option>
+                <option value="frankrijk">Frankrijk</option>
+                <option value="italie">Italie</option>
+                <option value="portugal">Portugal</option>
+                <option value="spanje">Spanje</option>
+                <option value="sudan">Sudan</option>
+                <option value="tsjaad">Tsjaad</option>
+                <option value="verweggistan">Verweggistan</option>
+            </select>
+        </div>
+        <div>
+            <label for="date">Vertrekdatum</label>
+            <input type="date" id="date" name="date" min="2022-09-15" required> 
+        </div>
+        <div>
+            <label for="date2">Terugkomst</label>
+            <input type="date" id="date2" name="date2" min="2022-09-16" required> 
+        </div>
+        <div>
+            <label for="reisgenoten">Aantal Reisgenoten</label>
+            <input type="text" id="reisgenoten" name="reisgenoten" placeholder="reisgenoten" pattern="[0-9]*" minlength="1" maxlength="4" required>
+        </div>
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="e-mail" required>
+        </div>
+        <div>
+            <label for="password">Wachtwoord</label>
+            <input type="password" id="password" name="password" placeholder="wachtwoord" required>
+        </div>
+        <div>
+            <button type="submit">Boek Nu</button>
+        </div>
+</body>
+</html>
