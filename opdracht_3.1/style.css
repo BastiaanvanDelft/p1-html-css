@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Goldman", cursive;
+}
+
+.hackerbg {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/hacker-smartphone.jpg);
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 80vh;
+    font-weight: bold;
+}
+
+h2, h3 {
+  font-weight: bold;
+  color: white;
+}
+
+p {
+  color:white;
+}
+
+main {
+  background-color: black;
+}
+
+header {
+    font-weight: bold;
+}
+
+.html_css {
+    width: 100vw;
+    height: 100vh;
+}
+
+.javascript {
+    width: 100vw;
+    height: 100vh;
+}
+
+.php {
+    width: 100vw;
+    height: 100vh;
+}
+
+.sql {
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+
+footer {
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  background: #00a8c7;
+  text-align: center;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
