@@ -126,7 +126,7 @@ footer {
 
 .dropdown-content a {
   color: #00a8c7;
-  display: flexr;
+  display: flex;
   text-align: center;
 }
 

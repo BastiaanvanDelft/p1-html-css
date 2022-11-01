@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: tomato;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav h1 {
+    color: white;
+    font-size: 2rem;
+    padding: 4rem;
+}
+
+div {
+    padding-left: 4rem;
+    padding-top: 1rem;
+}
+
+h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+p {
+    color: black;
+}
+
+.s1 {
+    height: 30vh;
+    background-color: gold;
+}
+
+.s2 {
+    height: 30vh;
+    background-color: orange;
+}
+
+.s3 {
+    height: 30vh;
+    background-color: green;
+}
+
+.square {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        background-color: tomato;
+        height: 15vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav h1 {
+        color: white;
+        display: flex;
+        padding: 0;
+    }
+
+    .s1 {
+        height: 30vh;
+        background-color: red;
+    }
+
+    .s2 {
+        height: 30vh;
+        background-color: blueviolet;
+    }
+
+    .s3 {
+        height: 30vh;
+        background-color: blue;
+    }
+
+    h2 {
+        color: white;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    
+    p {
+        color: white;
+    }
+
+    @media screen and (max-width: 576px) {
+        nav {
+            background-color: #8400ff;
+            height: 10vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 0;
+        }
+
+        div {
+            padding-left: 1rem;
+            padding-top: 1rem;
+        }
+
+        .s1 {
+            height: 30vh;
+            background-color: turquoise;
+        }
+
+        .s2 {
+            height: 30vh;
+            background-color: violet;
+        }
+
+        .s3 {
+            height: 30vh;
+            background-color: midnightblue;
+        }
+
+        .square {
+            display: block;
+            width: 5px;
+            height: 5px;
+            background-color: white;
+            margin-left: 70%;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+}
