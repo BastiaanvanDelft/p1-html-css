@@ -1,7 +1,213 @@
-h1 {
-    font-family: 'Pattaya', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h2 {
+    font-weight: bold;
 }
 
 h2, h3, h4 {
     font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h3, h4 {
+    font-weight: lighter;
+}
+
+h4 {
+    font-size: 0.8rem;
+}
+
+h1 {
+    font-family: 'Pattaya', sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+
+button {
+    background-color: #4c6e97;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border: 0;
+}
+
+.book {
+    width: 175px;
+    height: 50px;
+}
+
+.travel {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img/landing-page.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.travel div {
+    padding-top: 50%;
+}
+
+.travel h3 {
+    padding: 2.2%;
+}
+
+.travel h1 {
+    padding: 1rem;
+}
+
+.header-nav{
+    width: 100vw;
+    background-color: #131c27;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    align-content: center;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+}
+
+nav ul {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+nav h1 {
+    padding-right: 50vw;
+}
+
+li {
+    width: 10vw;
+}
+
+li a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+
+.explore {
+    height: 100vh;
+    width: 100vw;
+    background-image:
+    linear-gradient(rgb(0 0 0 / 43%), rgb(255 255 255 / 0%)),
+    url('./img/new-york-page.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.explore h2 {
+    text-decoration: underline;
+    padding-bottom: 2rem;
+    font-weight: bold;
+}
+
+.explore h2, .explore h3 {
+    padding-left: 2rem;
+}
+
+.perfect {
+    display: flex;
+    height: 20vh;
+    background-color: #131c27;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfect h2 {
+    font-weight: bold;
+}
+
+.central {
+    text-align: center;
+}
+
+.messysection {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.messysection h3, h4 {
+    color: black;
+    text-align: center;
+}
+
+.bluespace {
+    height: 5.5vh;
+    width: 20vw;
+    background-color: #131c27
+}
+
+.whitespace {
+    height: 25vh;
+    width: 20vw;
+}
+
+.whitespace h3 {
+    padding-bottom: 2rem;
+    padding-top: 0.5rem;
+}
+
+.travelform {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-image:
+    linear-gradient(rgb(0 0 0 / 43%), rgb(255 255 255 / 0%)),
+    url('./img/contact-mountain.png');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.formwindow {
+    margin: auto;
+    background-color: #131c27;
+    width: 50vw;
+    color: white;
+    height: 50vh;
+    opacity: 0.8;
+    align-content: center;
+    text-align: center;
+    border-radius: 25px;
+}
+
+input {
+    height: 4vh;
+}
+
+.submit {
+    height: 20vh;
+    width: 50vw;
 }
